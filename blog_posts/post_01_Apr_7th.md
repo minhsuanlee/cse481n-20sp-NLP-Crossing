@@ -4,6 +4,8 @@
 
 ### Team Members: Sam Lee, Shuheng Liu, Robin Yang
 
+GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
+
 ### Top Three Project Ideas:
 
 1.  Chatbot Interviewer
