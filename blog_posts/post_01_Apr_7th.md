@@ -4,11 +4,11 @@
 
 ### Team Members: Sam Lee, Shuheng Liu, Robin Yang
 
-GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
+### GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
 
 ### Top Three Project Ideas:
 
-1.  Chatbot Interviewer
+1. **Chatbot Interviewer**
     - Minimal Viable Plan:
       - Find a working chatbot that we can customize
       - Find suitable dataset to train and evaluate our model
@@ -17,13 +17,14 @@ GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
     - Stretch Goals:
       - Change topic when no questions can be asked about the prev topic
       - Improve quality of question/summary
-      - What if the user gives unrelated responses 
+      - What if the user gives unrelated responses
     - Relevant Links:
       - [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/pdf/1603.06393.pdf)
       - [A Copy-Augmented Sequence-to-Sequence Architecture Gives Good Performance on Task-Oriented Dialogue](https://nlp.stanford.edu/pubs/meric2017copy.pdf)
       - [Possible Sources of Datasets & Models](http://nlpprogress.com/english/dialogue.html)
 &nbsp;
-1. Research Paper Summarizer
+
+2. **Research Paper Summarizer**
     - Minimal Viable Plan:
       - Find a summarization model
       - Generate a paper summary/abstract given a research paper (without abstract)
@@ -34,12 +35,13 @@ GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
     - Relevant Link:
       - [Neural Text Summarization: A Critical Evaluation](https://www.aclweb.org/anthology/D19-1051.pdf)
 &nbsp;
-3. Discover how BERT works
+
+3. **Discover What Else Can BERT Do**
     - Minimal Viable Plan:
-      - Search for a paper that is suitable for replication
-      - Replicate the results from the selected paper
+      - Search for papers that applied BERT to different domains
+      - Learn from those papers and apply BERT to other domain(s) of interest
     - Stretch Goal:
-      - Design similar experiments to make further discovery
+      - Analyze advantages and disadvantages of applying BERT to distinct domains as well as its performances
     - Relevant Links:
       - [What Does BERT Look At? An Analysis of BERT’s Attention](https://arxiv.org/pdf/1906.04341.pdf)
       - [BERT: Pre-training of Deep Bidirectional Transformers for
