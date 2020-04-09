@@ -8,7 +8,7 @@ GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
 
 ### Top Three Project Ideas:
 
-1.  Chatbot Interviewer
+1.  **Chatbot Interviewer**
     - Minimal Viable Plan:
       - Find a working chatbot that we can customize
       - Find suitable dataset to train and evaluate our model
@@ -23,7 +23,7 @@ GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
       - [A Copy-Augmented Sequence-to-Sequence Architecture Gives Good Performance on Task-Oriented Dialogue](https://nlp.stanford.edu/pubs/meric2017copy.pdf)
       - [Possible Sources of Datasets & Models](http://nlpprogress.com/english/dialogue.html)
 &nbsp;
-1. Research Paper Summarizer
+2. **Research Paper Summarizer**
     - Minimal Viable Plan:
       - Find a summarization model
       - Generate a paper summary/abstract given a research paper (without abstract)
@@ -34,7 +34,7 @@ GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing
     - Relevant Link:
       - [Neural Text Summarization: A Critical Evaluation](https://www.aclweb.org/anthology/D19-1051.pdf)
 &nbsp;
-3. Discover how BERT works
+3. **Discover how BERT works**
     - Minimal Viable Plan:
       - Search for a paper that is suitable for replication
       - Replicate the results from the selected paper
