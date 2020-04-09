@@ -22,6 +22,7 @@
       - [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/pdf/1603.06393.pdf)
       - [A Copy-Augmented Sequence-to-Sequence Architecture Gives Good Performance on Task-Oriented Dialogue](https://nlp.stanford.edu/pubs/meric2017copy.pdf)
       - [Possible Sources of Datasets & Models](http://nlpprogress.com/english/dialogue.html)
+      - [TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents](https://arxiv.org/pdf/1901.08149.pdf)
 &nbsp;
 2. **Research Paper Summarizer**
     - Minimal Viable Plan:
