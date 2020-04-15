@@ -1,4 +1,4 @@
-# Blog Post 3 - Due April 14th
+# Blog Post 3 (Project Proposal) - Due April 14th
 
 ### Team Name: NLP Crossing
 
