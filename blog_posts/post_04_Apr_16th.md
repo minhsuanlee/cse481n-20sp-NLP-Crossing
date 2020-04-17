@@ -10,6 +10,8 @@ __GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing__
 - Forked and cloned [Bert from Google research](https://github.com/google-research/bert)
 - Ran SQuAD1.1 using a pre-trained model (BERT-Base, Cased: 12-layer, 768-hidden, 12-heads , 110M parameters)
 - Using the model above, we were able to reach the expected performance of:
+
+
   ```{"exact_match": 80.88930936613056, "f1": 88.4823666931611}```
 
 #### Evaluation framework:
