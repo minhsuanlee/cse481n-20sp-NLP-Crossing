@@ -1,9 +1,3 @@
-Due April 16: complete at least one strawman/baseline approach, run experiments, and set up the evaluation framework.
-
-2 points for approach and experiment explanation
-
-2 points for evaluation framework
-
 # Blog Post 4 - Due April 16th 
 
 ### Team Name: NLP Crossing
@@ -13,8 +7,10 @@ Due April 16: complete at least one strawman/baseline approach, run experiments,
 __GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing__
 
 #### Strawman/baseline Approach:
-Fork and clone [Bert from Google research](https://github.com/google-research/bert). Run SQuAD1.1
-using a pre-trained model (BERT-Base, Cased: 12-layer, 768-hidden, 12-heads , 110M parameters).
+- Forked and cloned [Bert from Google research](https://github.com/google-research/bert)
+- Ran SQuAD1.1 using a pre-trained model (BERT-Base, Cased: 12-layer, 768-hidden, 12-heads , 110M parameters)
 
 #### Evaluation framework:
-Use the same evaluation mechanisms from verious versions of Bert and RoBERTa.
+- For the strawman/baseline approach, we used [evaluate-v1.1.py](https://github.com/allenai/bi-att-flow/blob/master/squad/evaluate-v1.1.py) included in [Bert from Google research](https://github.com/google-research/bert) to evaluate our BERT's predictions on the SQuAD1.1 data
+- Select domain-specific tasks from _Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks_, which should be done in the next week
+- Evaluate the performances of different versions of BERT/RoBERTa using the same evaluation methods as described in the paper above
