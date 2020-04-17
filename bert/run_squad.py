@@ -30,7 +30,7 @@ import six
 import tensorflow as tf
 
 flags = tf.flags
-
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
 FLAGS = flags.FLAGS
 
 ## Required parameters
