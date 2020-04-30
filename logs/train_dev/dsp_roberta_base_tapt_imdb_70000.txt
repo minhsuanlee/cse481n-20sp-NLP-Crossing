@@ -1,0 +1,77 @@
+                                              review  sentiment
+0  I rented I AM CURIOUS-YELLOW from my video sto...          0
+1  "I Am Curious: Yellow" is a risible and preten...          0
+2  If only to avoid making this type of film in t...          0
+3  This film was probably inspired by Godard's Ma...          0
+4  Oh, brother...after hearing about this ridicul...          0
+data_shapes (22500, 2) (2500, 2)
+Epoch 1/10
+----------
+Train loss 0.26363666769589894 accuracy 0.9280855199222546
+[[1227   71]
+ [  47 1155]]
+Val   loss 0.1885036113448798 F1_score 0.9514003294892915
+
+Epoch 2/10
+----------
+Train loss 0.14400245002154732 accuracy 0.9692974694744292
+[[1195  103]
+ [  23 1179]]
+Val   loss 0.26032182236258594 F1_score 0.9492753623188406
+
+Epoch 3/10
+----------
+Train loss 0.08815289507270749 accuracy 0.9831721213727308
+[[1249   49]
+ [  65 1137]]
+Val   loss 0.2628179083283717 F1_score 0.9522613065326634
+
+Epoch 4/10
+----------
+Train loss 0.054434164909601554 accuracy 0.990572301155225
+[[1239   59]
+ [  45 1157]]
+Val   loss 0.2748838016114677 F1_score 0.956989247311828
+
+Epoch 5/10
+----------
+Train loss 0.03760294723756535 accuracy 0.9939828333775772
+[[1229   69]
+ [  46 1156]]
+Val   loss 0.3233347353510582 F1_score 0.9526163988463123
+
+Epoch 6/10
+----------
+Train loss 0.027254321038659424 accuracy 0.995709293581634
+[[1234   64]
+ [  51 1151]]
+Val   loss 0.3507268832038386 F1_score 0.9524203558129913
+
+Epoch 7/10
+----------
+Train loss 0.02047138503023284 accuracy 0.9970809376382131
+[[1228   70]
+ [  47 1155]]
+Val   loss 0.35491610258912887 F1_score 0.9517923362175525
+
+Epoch 8/10
+----------
+Train loss 0.014890847455510201 accuracy 0.9978762941332626
+[[1241   57]
+ [  52 1150]]
+Val   loss 0.3365923508573264 F1_score 0.9547530095475302
+
+Epoch 9/10
+----------
+Train loss 0.010864230799179165 accuracy 0.9984959745200389
+[[1250   48]
+ [  56 1146]]
+Val   loss 0.3354446480568415 F1_score 0.9565943238731219
+
+Epoch 10/10
+----------
+Train loss 0.008181422625705096 accuracy 0.9988940499889405
+[[1239   59]
+ [  50 1152]]
+Val   loss 0.3454453770916302 F1_score 0.9548280149191878
+

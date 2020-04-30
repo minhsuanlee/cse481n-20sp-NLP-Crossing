@@ -1,0 +1,10 @@
+                                              review  sentiment
+0  I love sci-fi and am willing to put up with a ...          0
+1  Worth the entertainment value of a rental, esp...          0
+2  its a totally average film with a few semi-alr...          0
+3  STAR RATING: ***** Saturday Night **** Friday ...          0
+4  First off let me say, If you haven't enjoyed a...          0
+Testing...
+[[11812   688]
+ [  598 11902]]
+Test   loss 0.3917279256784916 F1_score 0.9487445197289757
