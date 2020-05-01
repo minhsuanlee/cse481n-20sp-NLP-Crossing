@@ -71,10 +71,6 @@ __DAPT + TAPT:__
 
 #### Failure Modes
 
-- Notice RoBERTa and DAPT F1 lower than expected
-- Data: size (80% 20%)
-- Different code base (dropout)
-
 One of the problem that we encountered when we first started was that the IMDB training dataset was divided into positive, negative and unsupervised. The unsupervised data was used for unsupervised learning that we did not realize. Adding the unsupervised data, which we treated as a category other than positive or negative, significantly lowered our models performance to 67% accuracy (our evaluation metrics then was the accuracy of the prediction rather than the _F_<sub>1</sub> score).
 
 In the results shown in the previous section, one can observe that even though we got similar results using TAPT and DAPT + TAPT models, the _F_<sub>1</sub> score of the DAPT model was lower than the expected results by 2 standard deviations, and that of the RoBERTa model was lower by 5 standard deviations. Aside from the possibility that the original paper, reporting results using five different seeds, may not cover some anomalies, here are some possible causes that account for the differences in results.
