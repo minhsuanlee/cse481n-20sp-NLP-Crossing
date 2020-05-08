@@ -6,7 +6,7 @@
 
 __GitHub URL: https://github.com/minhsuanlee/cse481n-20sp-NLP-Crossing__
 
-##### Advancing Solution Attempt & Additional Experiments
+#### Advancing Solution Attempt & Additional Experiments
 
 In the previous attempt, as we were not able to locate the original code base that the paper _Don't Stop Pre-Training_ used, we had to develop our own code base to find out the _F<sub>1</sub>_ score using four models (RoBERTa, DAPT, TAPT and DAPT + TAPT) on the IMDB task.
 
@@ -48,7 +48,7 @@ One reminder when using the paper's code base is that one needs to install the c
 
 
 
-##### Error Analysis
+#### Error Analysis
 
 Due to memory limitations we were only able to use a batch size of 8 on the IMDB dataset. We have noticed that if we use the smaller batch size in some experiments, especially expirements that envolve TAPT, we generally get higher F1 scores than reported in the paper. The scores we got have exceeded the standard deviations reported.
 
@@ -56,7 +56,7 @@ On SciERC dataset, we were able to use the original batch size used in the paper
 
 One possible reason for the better performance is that training with a larger batch size converges faster and is more stable, but may not generalize very well, whereas a smaller batch size introduces better generalization ability. Because we stop based on the performance on the validation dataset, if the model has a good generalization ability, we will be more likely to get a similar result on the test dataset to the validation dataset.
 
-##### Next Action Plan
+#### Next Action Plan
 
 Since we have gotten convincing results by replicating the results from two domains (i.e. Reviews and CS) in the paper: _Don't Stop Pretraining_, we are now moving onto the remaining two domains (i.e. Biomedical and News). The plan is to replicate the results for four tasks, each from a different domain documented in the paper. We will continue to try out smaller batch sizes (i.e. 8) on the remaining domains, since it seems to increase performances based on our earlier findings. If time permits, we will include standard deviation of _F<sub>1</sub>_ from all four tasks, similar to what the paper provides. 
 
